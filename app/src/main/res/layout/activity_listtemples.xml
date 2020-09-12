@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4AF37"
+    tools:context=".ListTemples">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="@string/templelist"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="25sp"
+            android:layout_marginBottom="15dp" />
+        <Button
+            android:id="@+id/btnt1"
+            android:layout_width="fill_parent"
+            android:background="@drawable/leaf2"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@android:color/black"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/Mutt" />
+
+        <Button
+            android:id="@+id/btnt2"
+            android:layout_width="fill_parent"
+            android:background="@drawable/leaf2"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@android:color/black"
+            android:text="@string/KamakshiAmmanTemple" />
+
+        <Button
+            android:id="@+id/btnt3"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/leaf2"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/EkambareswararTemple"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btnt4"
+            android:layout_width="fill_parent"
+            android:background="@drawable/leaf2"
+            android:textColor="@android:color/black"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/KailasanatharTemple" />
+
+        <Button
+            android:id="@+id/btnt5"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/leaf2"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/VaradarajaPerumalTemple"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btnt6"
+            android:layout_width="fill_parent"
+            android:background="@drawable/leaf2"
+            android:textColor="@android:color/black"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/UlagalanthaPerumalTemple" />
+
+        <Button
+            android:id="@+id/btnt7"
+            android:layout_width="fill_parent"
+            android:background="@drawable/leaf2"
+            android:textColor="@android:color/black"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/KumarakottamTemple" />
+
+        <Button
+            android:id="@+id/btnt8"
+            android:layout_width="fill_parent"
+            android:background="@drawable/leaf2"
+            android:textColor="@android:color/black"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/ChitraguptaTemple" />
+
+        <Button
+            android:id="@+id/btnt9"
+            android:layout_width="fill_parent"
+            android:background="@drawable/leaf2"
+            android:textColor="@android:color/black"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/KachabeswararTemple" />
+        <Button
+            android:id="@+id/btnt10"
+            android:layout_width="fill_parent"
+            android:background="@drawable/leaf2"
+            android:textColor="@android:color/black"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/pandavadootha_temple" />
+        <Button
+            android:id="@+id/btnt11"
+            android:layout_width="fill_parent"
+            android:background="@drawable/leaf2"
+            android:textColor="@android:color/black"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/astabujakaram" />
+        <Button
+            android:id="@+id/btnt12"
+            android:layout_width="fill_parent"
+            android:background="@drawable/leaf2"
+            android:textColor="@android:color/black"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/yatothkari_temple" />
+        <Button
+            android:id="@+id/btnt13"
+            android:layout_width="fill_parent"
+            android:background="@drawable/leaf2"
+            android:textColor="@android:color/black"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/nilthingal_thundam" />
+    </LinearLayout>
+</ScrollView>

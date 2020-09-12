@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HotelList"
+    android:background="@drawable/cust_btn2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/Hotel"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/btnh1"
+            android:background="@drawable/transparent_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@android:color/white"
+            android:text="@string/h1" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/btnh2"
+            android:background="@drawable/transparent_btn"
+            android:fontFamily="@font/montserrat"
+            android:text="Pine Tree Hotel"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnh3"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/transparent_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@android:color/white"
+            android:text="Regency hotel by GRT" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/btnh4"
+            android:background="@drawable/transparent_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@android:color/white"
+            android:text="Sri Rama Lodge"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/btnh5"
+            android:background="@drawable/transparent_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@android:color/white"
+            android:text="MM Hotels"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/btnh6"
+            android:background="@drawable/transparent_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@android:color/white"
+            android:text="Sri Krishna Lodge"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/btnh7"
+            android:background="@drawable/transparent_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@android:color/white"
+            android:text="SSK Inn Hotel"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/btnh8"
+            android:background="@drawable/transparent_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@android:color/white"
+            android:text="Rajam Lodge"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/btnh9"
+            android:background="@drawable/transparent_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@android:color/white"
+            android:text="SSK Residency"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/btnh10"
+            android:background="@drawable/transparent_btn"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@android:color/white"
+            android:text="Hotel Ramco Residency"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</ScrollView>

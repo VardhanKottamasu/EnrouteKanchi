@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.enroutekanchi">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:fullBackupContent="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Map_att10"
+            android:label="@string/title_activity_map_att10"/>
+        <activity android:name=".Att10" />
+        <activity
+            android:name=".nilthingal_Map"
+            android:label="@string/title_activity_nilthingal__map" />
+        <activity android:name=".nilthingal_Temple"/>
+        <activity
+            android:name=".Astabujakaram_Map"
+            android:label="@string/title_activity_astabujakaram__map" />
+        <activity android:name=".astabujakaram_Temple" />
+        <activity
+            android:name=".yatothkari_Map"
+            android:label="@string/title_activity_yatothkari__map" />
+        <activity android:name=".yatothkari_temple" />
+        <activity
+            android:name=".Hotels_Map"
+            android:label="@string/title_activity_hotels__map" />
+        <activity
+            android:name=".Map_doothaTemp"
+            android:label="@string/title_activity_map_dootha_temp" />
+        <activity android:name=".pandavadootha_temple" />
+        <activity
+            android:name=".Map_att1"
+            android:label="@string/title_activity_map_att1" />
+        <activity
+            android:name=".Map_att2"
+            android:label="@string/title_activity_map_att2" />
+        <activity
+            android:name=".Map_att3"
+            android:label="@string/title_activity_map_att3" />
+        <activity
+            android:name=".Map_att4"
+            android:label="@string/title_activity_map_att4" />
+        <activity
+            android:name=".Map_att5"
+            android:label="@string/title_activity_map_att5" />
+        <activity
+            android:name=".Map_att6"
+            android:label="@string/title_activity_map_att6" />
+        <activity
+            android:name=".Map_att7"
+            android:label="@string/title_activity_map_att7" />
+        <activity
+            android:name=".Map_att8"
+            android:label="@string/title_activity_map_att8" />
+        <activity
+            android:name=".Map_att9"
+            android:label="@string/title_activity_map_att9" />
+        <activity android:name=".Att9" />
+        <activity android:name=".Att8" />
+        <activity android:name=".Att7" />
+        <activity android:name=".Att6" />
+        <activity android:name=".Att5" />
+        <activity android:name=".Att4" />
+        <activity android:name=".Att3" />
+        <activity android:name=".Att2" />
+        <activity android:name=".Att1" />
+        <activity android:name=".History_kanchi" />
+        <activity android:name=".BugReport" />
+        <activity android:name=".info_App" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Map_Kacha"
+            android:label="@string/title_activity_map__kacha" />
+        <activity android:name=".KachabeswararTemple" />
+        <activity
+            android:name=".Map_Chitragupta"
+            android:label="@string/title_activity_map__chitragupta" />
+        <activity android:name=".ChitraguptaTemple" />
+        <activity
+            android:name=".Map_Kottam"
+            android:label="@string/title_activity_map__kottam" />
+        <activity android:name=".KumarakottamTemple" />
+        <activity
+            android:name=".Map_Ulagalanthar"
+            android:label="@string/title_activity_map__ulagalanthar" />
+        <activity android:name=".UlagalantharTemple" />
+        <activity
+            android:name=".Map_Varadaraja"
+            android:label="@string/title_activity_map__varadaraja" />
+        <activity android:name=".VaradarajaTemple" />
+        <activity
+            android:name=".Map_Kamakshi"
+            android:label="@string/title_activity_map__kamakshi" />
+        <activity
+            android:name=".Map_Kailasanath"
+            android:label="@string/title_activity_map__kailasanath" />
+        <activity
+            android:name=".Map_Mutt"
+            android:label="@string/title_activity_map__mutt" />
+        <activity
+            android:name=".Map_Ekam"
+            android:label="@string/title_activity_map__ekam" />
+        <activity android:name=".KailasanatharTemple" />
+        <activity android:name=".EkambareswararTemple" />
+        <activity android:name=".KamakshiTemple" />
+        <activity android:name=".SankaraMutt" />
+        <activity android:name=".ListTemples" />
+        <activity android:name=".Attractions" />
+        <activity android:name=".Commute" />
+        <activity android:name=".HotelList" />
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#202020</color> //Appears when app is opened in recent menu.
+    <color name="colorPrimaryDark">#000000</color> //Appears on the activity head
+    <color name="colorAccent">#7C0700</color> //Appears at the text of close notification.
+</resources>
